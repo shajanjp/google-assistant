@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+<header class="main-header">
+  <h1>{{ page.title }} commands</h1>
+</header>
+<div class="ui container">
+  <main class="ui stackable grid" id="main-content">
+    <div class="four wide column">
+      <nav class="categories">
+        {% for post in site.posts %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+    <section class="twelve wide column" id="commands-list">
+
+      {% for command in page.commands %}
+      <div class="command">
+        <p>{{ command }}</p>
+      </div>
+      {% endfor %}
+
+    </section>
+  </main>
+</div>
