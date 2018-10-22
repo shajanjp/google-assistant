@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
+
+body, html{
+  font-family: 'Roboto', sans-serif;
+  background-color: #efefef;
+}
+
+main#main-content{
+  margin-top: 30px;
+}
+
+header.main-header{
+  padding:150px 0px;
+  background-image: url('../img/google-home-devices.jpg');
+  background-size: cover;
+}
+
+header.main-header h1{
+  color: #555;
+  text-align: center;
+  font-weight: 100;
+  font-size: 3em; 
+}
+
+#commands-list .command{
+  margin: 20px 0px 0px 0px;
+}
+
+#commands-list .command p{
+  color: #555;
+  display: inline-block;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 0px;
+  font-weight: 300;
+  font-size:2em;  
+  
+  -webkit-box-shadow: 0 2px 3px 0 rgba(155,155,155,0.35);
+  box-shadow: 0 2px 3px 0 rgba(155,155,155,0.35);
+
+  -webkit-transition: box-shadow 0.5s ease-in-out;
+  -o-transition: box-shadow 0.5s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+#commands-list .command p:hover{
+  -webkit-transition: box-shadow 0.5s ease-in-out;
+  -o-transition: box-shadow 0.5s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out;
+
+  -webkit-box-shadow: 0 4px 6px 0 rgba(155,155,155,0.35);
+  box-shadow: 0 4px 6px 0 rgba(155,155,155,0.35);
+}
+
+#commands-list .command .red{
+  color: #ea4335;
+}
+
+#commands-list .command .green{
+  color: #34a853;
+}
+
+#commands-list .command .blue{
+  color: #4285f4;
+}
+
+#commands-list .command .yellow{
+  color: #fbbc05;
+}
+
+
+/*Categories*/
+nav.categories{
+  margin-top: 20px
+}
+nav.categories a{
+  text-transform: capitalize;
+  text-decoration: none;
+  display: inline-block;
+  color: #555;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 6px 4px 4px 0px;
+  padding: 10px 15px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(155,155,155,0.35);
+  box-shadow: 0 1px 2px 0 rgba(155,155,155,0.35);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+nav.categories a:hover{
+  background-color: #4285f4;
+  color: #fff;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(155,155,155,0.35);
+  box-shadow: 0 2px 4px 0 rgba(155,155,155,0.35);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+nav.categories a.active{
+  background-color: #4285f4;
+  color: #fff;
+}
