@@ -1,0 +1,8 @@
+# Name of your site (displayed in the header)
+name: Google Assistant
+
+# Short bio or description 
+description: A repository of commands for google assistant.
+
+# baseurl for resource linking
+baseurl: "http://shajanjp.github.io/google-assistant"
