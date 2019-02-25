@@ -8,4 +8,4 @@ description: A repository of commands for google assistant.
 permalink: /google-assistant/:title
 
 # baseurl for resource linking
-baseurl: "http://shajanjp.github.io/google-assistant"
+# baseurl: "http://shajanjp.github.io/google-assistant"
