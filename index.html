@@ -10,7 +10,7 @@ layout: page
     <div class="four wide column">
       <nav class="categories">
         {% for post in site.posts %}
-        <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% endfor %}
       </nav>
     </div>
