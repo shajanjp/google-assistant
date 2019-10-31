@@ -5,7 +5,7 @@ name: Google Assistant
 description: A repository of commands for google assistant.
 
 # baseurl for resource linking
-baseurl: "https://shajanjp.github.io/google-assistant"
+baseurl: "https://shajanjacob.com/google-assistant"
 
 # permalink structure
 permalink: /:title
